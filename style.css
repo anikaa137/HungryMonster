@@ -1,0 +1,36 @@
+body{
+    background-color:burlywood;
+}
+#inputButton{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px ;
+}
+#food-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:15px;
+    margin-left:30px;
+    
+}
+.mealItem{
+        border:  1px solid goldenrod;
+        border-radius: 20px;
+        padding: 23px;
+        width:350px ;
+        background-color:wheat;
+        box-shadow: rgba(0,0,0,0.79);
+}
+.mealItem h4{
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    color:  #495057 ;
+}
+
+#food-img{
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+}
